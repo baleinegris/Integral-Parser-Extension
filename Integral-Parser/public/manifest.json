@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Integral Parser",
+    "version": "1.0",
+    "icons": {
+        "48": "icon.png",
+        "96": "icon.png"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    }
+}
